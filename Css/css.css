@@ -26,7 +26,7 @@
     height: 400px;
     min-height: 400px;
     background-color: #ffffff;
-    background-image: url("../Img/BANNER.png");
+    background-image: url("../img/BannerLogo.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     border: 1px solid/*headerBorderColor*/
@@ -356,6 +356,12 @@ ul#menu ul ul li.iehover ul {
     height: 365px;
 }
 
+.video2 {
+    margin: 0px auto;
+    width: 100%;
+    height: 365px;
+}
+
 .lectura1 {
     margin: 0px auto;
 }
@@ -423,7 +429,7 @@ ul#menu ul ul li.iehover ul {
 }
 
 .icon-facebook {
-    background-image: url("../Img/facebookRed.png");
+    background-image: url("/img/facebookRed.png");
 }
 
 
