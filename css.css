@@ -31,6 +31,7 @@
     background-position: 0 0;
     border: 1px solid/*headerBorderColor*/
     #005883;
+    background-size: cover;
 }
 
 #header,
