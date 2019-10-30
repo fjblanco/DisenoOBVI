@@ -21,17 +21,7 @@ $(document).ready(function() {
         $("#conten8").hide("fast");
     });
 
-    $('#link1').on('click', function() {
-        $("#conten1").show(300);
-        $("#conten2").hide("fast");
-        $("#conten3").hide("fast");
-        $("#conten0").hide("fast");
-        $("#conten4").hide("fast");
-        $("#conten5").hide("fast");
-        $("#conten6").hide("fast");
-        $("#conten7").hide("fast");
-        $("#conten8").hide("fast");
-    });
+
     $('#link2').on('click', function() {
         $("#conten1").hide("fast");
         $("#conten3").hide("fast");
