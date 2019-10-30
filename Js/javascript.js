@@ -1,47 +1,76 @@
 $(document).ready(function() {
-	$("#conten0").show();
-	$("#conten1").hide("fast");
-	$("#conten2").hide("fast");
-	$("#conten3").hide("fast");
-	$("#conten4").hide("fast");
+    $("#conten0").show();
+    $("#conten1").hide("fast");
+    $("#conten2").hide("fast");
+    $("#conten3").hide("fast");
+    $("#conten4").hide("fast");
+    $("#conten5").hide("fast");
+    $("#conten6").hide("fast");
 
-	$('.linkInicio').on('click', function(){
-		$("#conten0").show(300);
-		$("#conten1").hide("fast");
-		$("#conten2").hide("fast");
-		$("#conten3").hide("fast");
-		$("#conten4").hide("fast");
-	});
+    $('.linkInicio').on('click', function() {
+        $("#conten0").show(300);
+        $("#conten1").hide("fast");
+        $("#conten2").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").hide("fast");
+    });
 
-	$('#link1').on('click', function(){
-		$("#conten1").show(300);
-		$("#conten2").hide("fast");
-		$("#conten3").hide("fast");
-		$("#conten0").hide("fast");
-		$("#conten4").hide("fast");
-		
-	});
-	$('#link2').on('click', function(){	
-		$("#conten1").hide("fast");
-		$("#conten3").hide("fast");
-		$("#conten2").show(300);
-		$("#conten0").hide("fast");	
-		$("#conten4").hide("fast");
-	});
-	$('#link3').on('click', function(){
-		$("#conten1").hide("fast");
-		$("#conten2").hide("fast");
-		$("#conten3").show(300);
-		$("#conten0").hide("fast");
-		$("#conten4").hide("fast");
-	});
-	$('#link4').on('click', function(){
-		$("#conten1").hide("fast");
-		$("#conten2").hide("fast");
-		$("#conten3").hide("fast");
-		$("#conten4").show(300);
-		$("#conten0").hide("fast");
-	});
+    $('#link1').on('click', function() {
+        $("#conten1").show(300);
+        $("#conten2").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten0").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").hide("fast");
+    });
+    $('#link2').on('click', function() {
+        $("#conten1").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten2").show(300);
+        $("#conten0").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").hide("fast");
+    });
+    $('#link3').on('click', function() {
+        $("#conten1").hide("fast");
+        $("#conten2").hide("fast");
+        $("#conten3").show(300);
+        $("#conten0").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").hide("fast");
+    });
+    $('#link4').on('click', function() {
+        $("#conten1").hide("fast");
+        $("#conten2").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten4").show(300);
+        $("#conten0").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").hide("fast");
+    });
+    $('#link5').on('click', function() {
+        $("#conten1").hide("fast");
+        $("#conten2").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten0").hide("fast");
+        $("#conten5").show(300);
+        $("#conten6").hide("fast");
+    });
+    $('#link6').on('click', function() {
+        $("#conten1").hide("fast");
+        $("#conten2").hide("fast");
+        $("#conten3").hide("fast");
+        $("#conten4").hide("fast");
+        $("#conten0").hide("fast");
+        $("#conten5").hide("fast");
+        $("#conten6").show(300);
+    });
 });
 
 // $('#contenedor1').fadeIn(1000);
@@ -72,11 +101,11 @@ $(document).ready(function() {
 
 // $(function(){
 // 	$(".accordion-titulo").click(function(e){
-			 
+
 // 		  e.preventDefault();
-	  
+
 // 		  var contenido=$(this).next(".accordion-content");
-  
+
 // 		  if(contenido.css("display")=="none"){ //open		
 // 			contenido.slideDown(250);			
 // 			$(this).addClass("open");
@@ -85,13 +114,13 @@ $(document).ready(function() {
 // 			contenido.slideUp(250);
 // 			$(this).removeClass("open");	
 // 		  }
-  
+
 // 		});
 // });
 
 
- 
- 
+
+
 
 // $(document).ready(function() {
 // 	irArriba();

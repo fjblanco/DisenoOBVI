@@ -1,256 +1,54 @@
-<!-- <html>
-  <head>
-    <title>Mi primera pagina web </title>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>OVI WEB con HTML 5 y CSS3</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
     <script src="../Js/javascript.js"></script>
     <link rel="stylesheet" href="../Css/css.css">
-    <link rel="icon" href="./../Img/">
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </head>
-  <body class="body">     
-    
-  <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
-      <span class="fa-stack">
-        <i class="fa fa-circle fa-stack-2x"></i>
-        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-    <nav class="navigation" id="mainNav">
-        <ul>
-            <li class="navigation_link  ">
-              Menú
-            </li>
-            <li><a class="navigation_link"  data-ref="#aaa" id="sectionA">Crear y maquetar un sitio web.</a></li>
-            <li><a class="navigation_link"  data-ref="#bbb" id="sectionB">Agregar y utilizar JQuery y JavaScript </a></li>
-            <li><a class="navigation_link"  data-ref="#ccc" id="sectionC">Agregar y dar estilos a un sitio web</a></li>
-          </ul>
-    </nav>
-
-    
-
-    <div class="page-section" id="intro">
-        <h1>Bienvenidos al O.V.I.</h1>
-        <h2>(Objeto Virtual de Información)</h2>
-        <h3> Para el curso de Diseños de Sitios Web </h3>
-        <p>
-            En el cual encontrara información acerca de como maquetar y estructurar un sitio web desde cero,
-            agregando estilos con <strong>CSS</strong> y <strong>CSS 3</strong>, funciones <strong>JAVASCRIPT</strong> y <strong>JQUERY</strong> para animaciones del sitio.
-        </p>
-    </div>
-
-    <div class="page-section" id="aaa"> -->
-        <!-- <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Collapsible Group Item #1
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Collapsible Group Item #2
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Collapsible Group Item #3
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </div>
-              </div>
-            </div>
-        </div> -->
-        
-         <!-- <div class="accordion-container">
-            <a href="#" class="accordion-titulo">1. Crear un sitio web<span class="toggle-icon"></span></a>
-            <div class="accordion-content">
-                Para empezar a crear un sitio web debemos:
-                <br><br>
-                1. Crear un archivo .html
-                <br>
-                2. Abrir nuestro archivo en cualquier editor de texto.
-            </div>
-          </div>
-          <div class="accordion-container">
-            <a href="#" class="accordion-titulo">2. Maquetar sitio web<span class="toggle-icon"></span></a>
-            <div class="accordion-content">
-                Despues de crear el archivo .html seguimos con el siguiente paso que es 
-                maquetar el sitio web y para esto debemos agregar dentro del archivo antes creado las 
-                siguientes etiquetas como se muestra en la imagen.
-                <br><br>
-                <a class="openModal" href="#ex1" rel="modal:open">Ver imagen</a>
-            </div>
-          </div>
-          <div class="accordion-container">
-              <a href="#" class="accordion-titulo">3. Ejecutar o probar sitio web<span class="toggle-icon"></span></a>
-              <div class="accordion-content">
-                  por ultimo debemos probar nuestro sitio creado , para probarlo solo debemos guardar
-                  y abrilo en un navegado ( el de su preferencia)
-              </div>
-          </div>
-    </div>
-
-    <div class="page-section" id="bbb" >
-        <div class="accordion-container">
-            <a href="#" class="accordion-titulo">1. Crear un sitio web<span class="toggle-icon"></span></a>
-            <div class="accordion-content">
-                Para empezar a crear un sitio web debemos:
-                <br><br>
-                1. Crear un archivo .html
-                <br>
-                2. Abrir nuestro archivo en cualquier editor de texto.
-            </div>
-          </div>
-          <div class="accordion-container">
-            <a href="#" class="accordion-titulo">2. Maquetar sitio web<span class="toggle-icon"></span></a>
-            <div class="accordion-content">
-                Despues de crear el archivo .html seguimos con el siguiente paso que es 
-                maquetar el sitio web y para esto debemos agregar dentro del archivo antes creado las 
-                siguientes etiquetas como se muestra en la imagen.
-                <br><br>
-                <a class="openModal" href="#ex1" rel="modal:open">Ver imagen</a>
-            </div>
-          </div>
-          <div class="accordion-container">
-              <a href="#" class="accordion-titulo">3. Ejecutar o probar sitio web<span class="toggle-icon"></span></a>
-              <div class="accordion-content">
-                  por ultimo debemos probar nuestro sitio creado , para probarlo solo debemos guardar
-                  y abrilo en un navegado ( el de su preferencia)
-              </div>
-          </div>
-    </div>
-
-    <div class="page-section" id="ccc" >
-        <div id="accordion-section3">
-            <h3>Section 1</h3>
-            <div>
-              <p>
-              Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-              ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-              amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-              odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-              </p>
-            </div>
-            <h3>Section 2</h3>
-            <div>
-              <p>
-              Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-              purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-              velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-              suscipit faucibus urna.
-              </p>
-            </div>
-            <h3>Section 3</h3>
-            <div>
-              <p>
-              Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-              Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-              ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-              lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-              </p>
-              <ul>
-                <li>List item one</li>
-                <li>List item two</li>
-                <li>List item three</li>
-              </ul>
-            </div>
-            <h3>Section 4</h3>
-            <div>
-              <p>
-              Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-              et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-              mauris vel est.
-              </p>
-              <p>
-              Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos.
-              </p>
-            </div>
-        </div>
-    </div>
-
-    
-  </body>
-  <footer>
-    Este es el espacio para el footer
-  </footer>
-
- 
-</html> -->
-
-<!-- <div id="ex1" class="modal">
-    <img src="../Img/Html-Inicial.PNG" alt="">
-</div> -->
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="utf-8">
-	<title>OVI WEB con HTML 5 y CSS3</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Lato:100,400,700' rel='stylesheet' type='text/css'>
-  <script src="../Js/javascript.js"></script>
-  <link rel="stylesheet" href="../Css/css.css">
-
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: 'your-app-id',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v4.0'
+            });
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 </head>
 <header>
+
     <div id="header" role="banner">
         <div id="headerContent">O.V.I. DISEÑOS DE SITIOS WEB</div>
-      </div>
-      <div id="main-header">		
+    </div>
+    <div id="main-header">
         <a id="logo-header" href="#">
-          <span class="site-name">Bienvenidos al O.V.I.</span>
-          <span class="site-desc">Curso de Diseños de Sitios Web</span>
-        </a> <!-- / #logo-header -->
+            <span class="site-name">Bienvenidos al O.V.I.</span>
+            <span class="site-desc">Curso de Diseños de Sitios Web</span>
+        </a>
+        <!-- / #logo-header -->
         <nav>
             <ul id="menu">
-                <li><a href="#"  class="linkInicio">Inicio</a></li>
+                <li><a href="#" class="linkInicio">Inicio</a></li>
                 <li>Material multimedia
                     <ul>
                         <li><a href="#" id="link3">Que es HTML ,Estrcutura y Historia</a></li>
                         <li><a href="#" id="link2">Maquetar una web html y css</a></li>
                         <li><a href="#" id="link4">Agregar  o Jquery a nuestra Web</a></li>
-                      </ul>
+                    </ul>
                 </li>
-                <li>Recursos
+                <!-- <li>Recursos
                     <ul>
                         <li><a href="#" id="link5">>SUBMENÚ 1</a></li>
                         <li>SUBMENÚ 2</li>
@@ -267,68 +65,109 @@
                         <li>SUBMENÚ 1</li>
                         <li>SUBMENÚ 2</li>
                       </ul>
-                </li>
-               </ul>
+                </li> -->
+            </ul>
         </nav>
-       
-      </div>
+
+    </div>
 </header>
-<body>
-<body>
-	<section id="main-content">
-      <div class="content0" id="conten0">
 
-          <p>
-            En el siguiente Objeto Virtual de Información (OVI) que pertenece 
-            al curso académico Diseño web encontrará material relacionado 
-            con la Unidad 1 denominada "Construccion de un sitio web".
-          </p>
-          <img class="logoTecnologia" src="../Img/Logos tecnologias.png" width="50%" height="40%" />
-          <p>
-            La revisión de este OVI le permitirá comprender la construccion de un sitio web
-            utilizando herramientas como <strong>HTML , CSS</strong> y <strong>JavaScript</strong>, con el cual podrá aportar de manera pertinente
-            al desarrollo del Trabajo colaborativo del curso.
-          </p>
-          <p>
-            Tiene a su disposición material multimedia que corresponde a dos videos sobre el tema
-             y un documentos de lectura.
-          </p>		
-        </div>
-			<div class="content1" id="conten1">
 
-      </div>  
-      <div class="content2" id="conten2">
-        <div>
-          <h2>Maquetar una pagina web simple</h2><br>
+
+<body>
+
+    <section id="main-content">
+        <div class="content0" id="conten0">
+
+            <p>
+                En el siguiente Objeto Virtual de Información (OVI) que pertenece al curso académico Diseño web encontrará material relacionado con la Unidad 1 denominada "Construccion de un sitio web".
+            </p>
+            <img class="logoTecnologia" src="../Img/Logos tecnologias.png" width="50%" height="40%" />
+            <p>
+                La revisión de este OVI le permitirá comprender la construccion de un sitio web utilizando herramientas como <strong>HTML , CSS</strong> y <strong>JavaScript</strong>, con el cual podrá aportar de manera pertinente al desarrollo del Trabajo
+                colaborativo del curso.
+            </p>
+            <p>
+                Tiene a su disposición material multimedia que corresponde a dos videos sobre el tema y un documentos de lectura.
+            </p>
         </div>
-        	<div>
-              <iframe class="video1" src="https://www.youtube.com/embed/AoO_tQorowA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-      </div>
-      <div class="content3" id="conten3">
-          <div>
-              <h2>Guia basica para mequetar un html Simple.</h2><br>
+        <div class="content1" id="conten1">
+
+        </div>
+        <div class="content2" id="conten2">
+            <div>
+                <h2>Maquetar una pagina web simple</h2><br>
             </div>
-          <object class="lectura1" width="750" height="400" data="../Documentos/HTML.pdf" ></object>
-      </div>
-      <div class="content4" id="conten4">
-          <div>
-              <h2>Agregar JQuery o JavaScript a nuestra Web.</h2><br>
+            <div>
+                <iframe class="video1" src="https://www.youtube.com/embed/AoO_tQorowA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-          <object class="lectura1" width="750" height="400" data="../Documentos/PresentaciónAddJQuery.pdf" ></object>
-      </div>
-	
-	</section> <!-- / #main-content -->
+        </div>
+        <div class="content3" id="conten3">
+            <div>
+                <h2>Guia basica para mequetar un html Simple.</h2><br>
+            </div>
+            <object class="lectura1" width="750" height="400" data="../Documentos/HTML.pdf"></object>
+        </div>
+        <div class="content4" id="conten4">
+            <div>
+                <h2>Agregar JQuery o JavaScript a nuestra Web.</h2><br>
+            </div>
+            <object class="lectura1" width="750" height="400" data="../Documentos/PresentaciónAddJQuery.pdf"></object>
+        </div>
+        <div class="content5" id="conten6">
+            <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">
+                  Tweets by UniversidadUNAD
+                </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="content6" id="conten5">
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v4.0"></script>
+            <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/UniversidadUNAD/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UniversidadUNAD/">Universidad Nacional Abierta y a Distancia - UNAD Colombia</a></blockquote>
+            </div>
+        </div>
+        <div id="sfckcyqfzpex58fs4xwkghgbu5563ztb759"></div>
+        <script type="text/javascript" src="https://counter10.wheredoyoucomefrom.ovh/private/counter.js?c=kcyqfzpex58fs4xwkghgbu5563ztb759&down=async" async></script>
+        <noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para web"><img src="https://counter10.wheredoyoucomefrom.ovh/private/contadorvisitasgratis.php?c=kcyqfzpex58fs4xwkghgbu5563ztb759" border="0" title="contador de visitas para web" alt="contador de visitas para web"></a></noscript>
+
+    </section>
+    <!-- / #main-content -->
+    <div class="social">
+        <ul>
+            <li>
+                <a href="#" id="link5" class="icon-facebook">
+                    <img src="../Img/circleFacbook.png" width="40px" height="40px" />
+                </a>
+            </li>
+            <li>
+                <a href="#" id="link6" class="icon-twitter">
+                    <img src="../Img/circleTwitter.png" width="40px" height="40px" />
+                </a>
+            </li>
+            <li>
+                <a href="#" id="link6" class="icon-pinterest">
+                    <img src="../Img/circleYotube.png" width="40px" height="40px" />
+                </a>
+            </li>
+            <li>
+                <!-- <a href="mailto:contacto@falconmasters.com" class="icon-mail"></a> -->
+
+                <a href="#" id="link6" class="icon-mail">
+                    <img src="../Img/circleIsntagram.png" width="40px" height="40px" />
+                </a>
+            </li>
+        </ul>
+    </div>
 </body>
-	
-	
-	<footer id="main-footer">
-      Elaborado por:
-      Francisco javier blanco
-      Escuela de Ciencias computacion,Ingenieria en sistemas - ECACEN
-		<p>&copy; 2019 <a href="#">Francisco javier blanco</a></p>
-	</footer> <!-- / #main-footer -->
- 
-	
-</body>
+
+
+<footer id="main-footer">
+    Elaborado por: Francisco javier blanco Escuela de Ciencias computacion,Ingenieria en sistemas - ECACEN
+    <p>&copy; 2019 <a href="#">Francisco javier blanco</a></p>
+</footer>
+<!-- / #main-footer -->
+
+
+
 </html>

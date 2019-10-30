@@ -1,71 +1,83 @@
 #headerContent {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  min-height: 1.1em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-height: 1.1em;
 }
+
 #headerContent {
-  padding-top: 200px;
-  color: #ff7f00;
-  text-shadow: 1px 1px 1px #ff682e;
-  text-align: right;
+    padding-top: 200px;
+    color: #ff7f00;
+    text-shadow: 1px 1px 1px #ff682e;
+    text-align: right;
 }
-#header, #emptyHeader {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-left-width: 0;
+
+#header,
+#emptyHeader {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
 }
-#header, #emptyHeader, #nodeDecoration {
-  height: auto!important;
-  height: 400px;
-  min-height: 400px;
-  background-color: #ffffff;
-  background-image: url("../Img/BANNER.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  border: 1px solid /*headerBorderColor*/ #005fbf;
-  
+
+#header,
+#emptyHeader,
+#nodeDecoration {
+    height: auto!important;
+    height: 400px;
+    min-height: 400px;
+    background-color: #ffffff;
+    background-image: url("../Img/BANNER.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border: 1px solid/*headerBorderColor*/
+    #005fbf;
 }
-#header, #emptyHeader, #nodeDecoration {
-  padding: 0 20px;
-  height: auto!important;
-  height: 120px;
-  min-height: 120px;
-  font-size: 1.6em;
-  font-weight: 300;
-  border-style: 1px;
-  border-width: 1px;
+
+#header,
+#emptyHeader,
+#nodeDecoration {
+    padding: 0 20px;
+    height: auto!important;
+    height: 120px;
+    min-height: 120px;
+    font-size: 1.6em;
+    font-weight: 300;
+    border-style: 1px;
+    border-width: 1px;
 }
+
+
 /************ 
 //--------------------------------
 // GENERAL
 //-------------------------------
 ************/
+
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #f2f2f2;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 h1 {
-	font-size: 2.3em;
-  line-height: 1.3em;
-	margin: 15px 0;
-	text-align: center;
-	font-weight: 300;
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
 }
 
 p {
-	margin: 0 0 1.5em 0;
+    margin: 0 0 1.5em 0;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -74,72 +86,76 @@ img {
 // CABECERA
 //-------------------------------
 ************/
+
 #main-header {
-	background: #005fbf;
-	color: white;
-	width: 100%;
-	position: absolute;
-}	
-#main-header a {
-  color: white;
+    background: #005fbf;
+    color: white;
+    width: 100%;
+    position: absolute;
 }
-	
-	
+
+#main-header a {
+    color: white;
+}
+
+
 /*
  * Logo
  */
-  #logo-header {
-	float: left;
-	padding: 5px 0 0 20px;
-	text-decoration: none;
+
+#logo-header {
+    float: left;
+    padding: 5px 0 0 20px;
+    text-decoration: none;
 }
+
 #logo-header:hover {
-  color: white;
+    color: white;
 }
 
 #logo-header .site-name {
-  display: block;
-  font-weight: 700;
-  font-size: 1.2em;
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
 #logo-header .site-desc {
-  display: block;
-  font-weight: 300;
-  font-size: 0.8em;
-  color: white;
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: white;
 }
-	
+
 
 /*
  * Navegación
  */
+
 nav {
-	float: right;
+    float: right;
 }
+
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  padding-right: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
 }
 
 nav ul li {
-  display: inline-block;
-  line-height: 50px;
+    display: inline-block;
+    line-height: 50px;
 }
-    
-nav ul li a {
-  display: block;
-  padding: 0 10px;
-  text-decoration: none;
-}
-    
-nav ul li a:hover {
-  background: #0b76a6;
-}
-	
 
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #0b76a6;
+}
 
 
 /************ 
@@ -147,20 +163,20 @@ nav ul li a:hover {
 // CONTENIDO
 //------------------------------
 ************/
+
 #main-content {
-	background: white;
-	width: 100%;
-	max-width: 60em;
-	margin: 20px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
+    background: white;
+    width: 100%;
+    max-width: 60em;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
 
-	#main-content header,
-	#main-content {
+#main-content header,
+#main-content {
     padding: 7em;
     text-align: justify;
-	}
-	
+}
 
 
 /************
@@ -168,43 +184,47 @@ nav ul li a:hover {
 // PIE PÁGINA
 //-----------------------------
 ************/
+
 #main-footer {
-	background: #005fbf;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40px;
-}
-	#main-footer p {
-		margin: 0;
-	}
-	
-	#main-footer a {
-		color: white;
-	}
-
-
-  /** MENU **/
-  ul#menu {
     background: #005fbf;
-    width: 940px;
-    float:left;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+#main-footer a {
+    color: white;
+}
+
+
+/** MENU **/
+
+ul#menu {
+    background: #005fbf;
+    width: 500px;
+    float: left;
     padding: 5px;
-   }
-     
-   ul#menu li {
+}
+
+ul#menu li {
     color: #fff;
     float: left;
     list-style: none;
     margin: 0% 5%;
-   }
-     
-   ul#menu li:hover{
+}
+
+ul#menu li:hover {
     color: #7db3cc;
-    cursor:pointer;
-   }
-     
-   /* ul#menu ul {
+    cursor: pointer;
+}
+
+
+/* ul#menu ul {
     display: none;
     position: absolute;
     top: 49px;
@@ -213,97 +233,198 @@ nav ul li a:hover {
     padding: 5px 0px 5px 5px;
     margin: 0;
     } */
-    ul#menu ul {
-      display: none;
-      position: absolute;
-      top: 49px;
-      background: #005fbf;
-      color: #fff;
-      padding: 5px 0px 5px 5px;
-      margin: 0;
-      width: 25% !important;
-      }
-     
-   ul#menu ul li{
-    float: left;
-    color: #fff;
-    width:80%;
-    margin:2% 0%;
-   }
-    
-    
-   ul#menu ul li a{
-    color: #fff;
-   }
-     
-   ul#menu ul li a:hover{
-    color:#7db3cc;
-    cursor:pointer;
-   }
-     
-   ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
-    display: none;
-    cursor:pointer;
-   }
-     
-   ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
-    display: block;
-    cursor:pointer;
-   }
 
-/*Fin del menu*/
-/* Inicio del menu responsive*/
-@media screen and (max-width:800px ) {
-	header nav {
-		width:80%;
-		height:100%;
-		left:-100%;
-		margin:0;
-		position: fixed;
-	}
- 
-	header nav ul li {
-		display:block;
-		float:none;
-		border-bottom:1px solid rgba(255,255,255, .3);
-	}
- 
-	.menu_bar {
-		display:block;
-		width:100%;
-		background:#ccc;
-	}
- 
-	.menu_bar .bt-menu {
-		display:block;
-		padding:20px;
-		background:#024959;
-		color:#fff;
-		text-decoration:none;
-		font-weight: bold;
-		font-size:25px;
-		-webkit-box-sizing:border-box;
-		-moz-box-sizing:border-box;
-		box-sizing:border-box;
-	}
- 
-	.menu_bar span {
-		float:right;
-		font-size:40px;
-	}
+ul#menu ul {
+    display: none;
+    position: absolute;
+    top: 49px;
+    background: #005fbf;
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0;
+    width: 25% !important;
 }
 
-/*Fin del menu responsive*/
-   .logoTecnologia{
-    margin: 1% 25% auto;
-   }
+ul#menu ul li {
+    float: left;
+    color: #fff;
+    width: 80%;
+    margin: 2% 0%;
+}
 
-   .video1 {
+ul#menu ul li a {
+    color: #fff;
+}
+
+ul#menu ul li a:hover {
+    color: #7db3cc;
+    cursor: pointer;
+}
+
+ul#menu li:hover ul ul,
+ul#menu li:hover ul ul ul,
+ul#menu li.iehover ul ul,
+ul#menu li.iehover ul ul ul {
+    display: none;
+    cursor: pointer;
+}
+
+ul#menu li:hover ul,
+ul#menu ul li:hover ul,
+ul#menu ul ul li:hover ul,
+ul#menu li.iehover ul,
+ul#menu ul li.iehover ul,
+ul#menu ul ul li.iehover ul {
+    display: block;
+    cursor: pointer;
+}
+
+
+/*Fin del menu*/
+
+
+/* Inicio del menu responsive*/
+
+@media screen and (max-width:800px) {
+    ul#menu {
+        background: #005fbf;
+        width: 500px;
+        float: left;
+        padding: 5px;
+    }
+    ul#menu li {
+        color: #fff;
+        float: left;
+        list-style: none;
+        margin: 0% 5%;
+    }
+    ul#menu li:hover {
+        color: #7db3cc;
+        cursor: pointer;
+    }
+    ul#menu ul {
+        display: none;
+        position: absolute;
+        top: 100px;
+        background: #005fbf;
+        color: #fff;
+        padding: 5px 0px 5px 5px;
+        margin: 0;
+        width: 60% !important;
+    }
+    ul#menu ul li {
+        float: left;
+        color: #fff;
+        width: 80%;
+        margin: 2% 0%;
+    }
+    ul#menu ul li a {
+        color: #fff;
+    }
+    ul#menu ul li a:hover {
+        color: #7db3cc;
+        cursor: pointer;
+    }
+    ul#menu li:hover ul ul,
+    ul#menu li:hover ul ul ul,
+    ul#menu li.iehover ul ul,
+    ul#menu li.iehover ul ul ul {
+        display: none;
+        cursor: pointer;
+    }
+    ul#menu li:hover ul,
+    ul#menu ul li:hover ul,
+    ul#menu ul ul li:hover ul,
+    ul#menu li.iehover ul,
+    ul#menu ul li.iehover ul,
+    ul#menu ul ul li.iehover ul {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+/*Fin del menu responsive*/
+
+.logoTecnologia {
+    margin: 1% 25% auto;
+}
+
+.video1 {
     margin: 0px auto;
     width: 100%;
     height: 365px;
-   }
+}
 
-   .lectura1{
+.lectura1 {
     margin: 0px auto;
-   }
+}
+
+
+/* btn Redes Sociales */
+
+.social {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    /* Establecemos la barra en la izquierda */
+    top: 320px;
+    /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+
+/* Establecemos los colores de cada red social, aprovechando su class */
+
+.social ul li .icon-twitter {
+    background: #00abf0;
+}
+
+.social ul li .icon-googleplus {
+    background: #d95232;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181f;
+}
+
+.social ul li .icon-mail {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.social ul li a:hover {
+    background: #000;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 30px;
+    /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+.icon-facebook {
+    background-image: url("../Img/facebookRed.png");
+}
+
+
+/*Fin btn redes sociales*/
